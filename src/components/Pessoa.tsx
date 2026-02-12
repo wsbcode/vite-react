@@ -1,4 +1,5 @@
 // 1. Função que formata a data recebida.
+
 // Usamos o parâmetro 'novoDia' que a função recebe para gerar o texto.
 function diaDaSemana(novoDia: Date) {
    return novoDia.toLocaleDateString("pt-BR", {
@@ -23,7 +24,7 @@ export const Pessoa = ({
    const hoje: Date = new Date();
 
    return (
-      <div className=" flex flex-col p-4 border border-gray-700 rounded-lg bg-gray-800 ">
+      <div className=" flex flex-col p-4 border border-gray-700 rounded-lg bg-gray-800 mb-1">
          {/* Exibe o nome e o dia da semana formatado */}
          <h1 className="text-green-600 font-bold text-xl">
             Nome: {nome} - {diaDaSemana(hoje)}

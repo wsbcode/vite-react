@@ -17,7 +17,9 @@ export function Page() {
    return (
       <div className="bg-blue-900 text-white flex items-center justify-center flex-col gap-4">
          <h1 className="font-bold text-3xl text-center ">Aulas de React</h1>
-         <Geometria />
+         <div className="">
+            <Geometria />
+         </div>
          <br />
          <div>
             <Pessoa
