@@ -1,4 +1,4 @@
-import { Estudante } from "@/types/Estudante";
+import type { Estudante } from "../types/Estudante";
 
 type PropsEstudantes = {
    ListaEstudantes: Estudante[];

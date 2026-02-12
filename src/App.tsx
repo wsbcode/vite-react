@@ -3,7 +3,7 @@ import { Condicional } from "./components/Condicional";
 import { listaPessoas } from "./data/listaPessoas";
 import { ExibirHora } from "./components/ExibirHoras";
 import { ExibirNotas } from "./components/ExibirNotas";
-import { TabelaEstudantes } from "./components/TabaleEstudantes";
+import { TabelaEstudantes } from "./components/TabelasEstudantes";
 import { Estudantes } from "./data/estudantes";
 import { Geometria } from "./components/Geometria";
 import { Pessoa } from "./components/Pessoa";
@@ -15,9 +15,10 @@ export function Page() {
    const trabalho = listaPessoas.filter((item) => item.profissao === "Desenvolvedor");
 
    return (
-      <div className=" flex items-center justify-center flex-col gap-4">
+      <div className="bg-blue-900 text-white flex items-center justify-center flex-col gap-4">
          <h1 className="font-bold text-3xl text-center ">Aulas de React</h1>
-         <Geometria /> <br />
+         <Geometria />
+         <br />
          <div>
             <Pessoa
                nome="William"
@@ -59,7 +60,7 @@ export function Page() {
             </ul>
          </div>
          <div>
-            <ExibirHora />{" "}
+            <ExibirHora />
          </div>
          <div>
             <ExibirNotas nota={2} />

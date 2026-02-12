@@ -1,5 +1,3 @@
-import React from "react";
-
 // 1. Função que formata a data recebida.
 // Usamos o parâmetro 'novoDia' que a função recebe para gerar o texto.
 function diaDaSemana(novoDia: Date) {
@@ -25,7 +23,7 @@ export const Pessoa = ({
    const hoje: Date = new Date();
 
    return (
-      <div className="p-4 border border-gray-700 rounded-lg bg-gray-800 inline-block">
+      <div className=" flex flex-col p-4 border border-gray-700 rounded-lg bg-gray-800 ">
          {/* Exibe o nome e o dia da semana formatado */}
          <h1 className="text-green-600 font-bold text-xl">
             Nome: {nome} - {diaDaSemana(hoje)}
