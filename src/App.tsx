@@ -9,6 +9,7 @@ import { Geometria } from "./components/Geometria";
 import { Pessoa } from "./components/Pessoa";
 import { Clicando } from "./components/Clicando";
 import { CliqueComProps } from "./components/CliqueComProps";
+import { Formulario } from "./components/Formulario";
 
 export function Page() {
    {
@@ -86,6 +87,9 @@ export function Page() {
                <CliqueComProps label="Pode clicar" onClickTeste={click02} />
                <CliqueComProps label="Click here" onClickTeste={click03} />
             </div>
+         </div>
+         <div>
+            <Formulario />
          </div>
       </div>
    );
