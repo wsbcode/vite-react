@@ -10,6 +10,7 @@ import { Pessoa } from "./components/Pessoa";
 import { Clicando } from "./components/Clicando";
 import { CliqueComProps } from "./components/CliqueComProps";
 import { Formulario } from "./components/Formulario";
+import { IntroState } from "./components/introState";
 
 export function Page() {
    {
@@ -90,6 +91,9 @@ export function Page() {
          </div>
          <div>
             <Formulario />
+         </div>
+         <div>
+            <IntroState />
          </div>
       </div>
    );
