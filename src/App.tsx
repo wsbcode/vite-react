@@ -11,6 +11,7 @@ import { Clicando } from "./components/Clicando";
 import { CliqueComProps } from "./components/CliqueComProps";
 import { Formulario } from "./components/Formulario";
 import { IntroState } from "./components/introState";
+import { Exibir } from "./components/Exibir";
 
 export function Page() {
    {
@@ -94,6 +95,9 @@ export function Page() {
          </div>
          <div>
             <IntroState />
+         </div>
+         <div>
+            <Exibir />
          </div>
       </div>
    );
